@@ -24,6 +24,12 @@ body {
     background-size: cover;
 }
 
+.section-suscription {
+    padding: 25px 0px;
+    border-top: 15px solid #4e007c;
+    margin-top: 35px;
+}
+
 
 /* barra de navegación */
 

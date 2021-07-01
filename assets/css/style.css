@@ -198,3 +198,16 @@ body {
     border: 3px solid #4e007c;
     text-decoration: none;
 }
+
+
+/* card */
+
+.content-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+    box-shadow: 1px 0px 15px #acacac;
+}

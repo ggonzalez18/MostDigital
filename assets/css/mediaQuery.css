@@ -87,6 +87,12 @@
     .nav-current {
         color: #4e007c;
     }
+    .text-footer {
+        font-size: 16px;
+    }
+    .title-footer {
+        font-size: 18px;
+    }
 }
 
 
@@ -122,5 +128,11 @@
     }
     .nav-current {
         color: #4e007c;
+    }
+    .text-footer {
+        font-size: 16px;
+    }
+    .title-footer {
+        font-size: 18px;
     }
 }

@@ -30,6 +30,15 @@ body {
     margin-top: 35px;
 }
 
+footer {
+    padding: 25px 0px;
+    background-image: url('./../img/footer.svg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 /* barra de navegación */
 
@@ -216,4 +225,21 @@ body {
     background-clip: border-box;
     border-radius: .25rem;
     box-shadow: 1px 0px 15px #acacac;
+}
+
+
+/* icons */
+
+.rrss-icon {
+    color: white;
+    margin: 25px;
+}
+
+.rrss-icon:hover {
+    color: #00ffff;
+}
+
+.contact-icon {
+    color: white;
+    margin: 3px 5px 0px 0px;
 }

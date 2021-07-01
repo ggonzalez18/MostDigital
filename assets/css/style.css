@@ -16,6 +16,17 @@ body {
     background-size: cover;
 }
 
+.section-two {
+    background-image: url('./../img/section2.svg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* barra de navegación */
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -46,4 +57,89 @@ body {
     font-weight: 500;
     color: white;
     text-decoration: none;
+}
+
+
+/* tipography for bg-dark*/
+
+.title-bg-purple {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.subtitle-bg-purple {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.bajada-bg-purple {
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+.text-footer {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+.text-footer:hover {
+    font-weight: 400;
+    color: #00ffff;
+}
+
+.dec-link:hover {
+    text-decoration: none;
+}
+
+.title-footer {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+
+/* tipography for bg-light*/
+
+.title-bg-white {
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(54, 54, 54);
+    text-align: center;
+}
+
+.subtitle-bg-white {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+    text-align: center;
+}
+
+.bajada-bg-white {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(54, 54, 54);
+    text-align: center;
+}
+
+
+/* tipography purple */
+
+.title-purple {
+    font-size: 45px;
+    font-weight: 800;
+    color: #4e007c;
+}
+
+.subtitle-purple {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+    letter-spacing: 4px;
 }

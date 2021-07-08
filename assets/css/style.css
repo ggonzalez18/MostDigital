@@ -16,7 +16,7 @@ body {
     background-size: cover;
 }
 
-.section-two {
+.section-two-home {
     background-image: url('./../img/section2.svg');
     position: relative;
     background-position: center;
@@ -37,6 +37,20 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.section-int-page {
+    padding: 0px 25px;
+    background-image: url('./../img/pag-interior.svg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-purple {
+    /* background-color: #4e007c; */
+    background-color: rgb(109, 109, 109);
 }
 
 
@@ -119,6 +133,20 @@ footer {
     color: white;
 }
 
+.title-mix-color {
+    font-size: 44px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.subtitle-bg-purple-page-interior {
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
 
 /* tipography for bg-light*/
 
@@ -167,6 +195,7 @@ footer {
     font-weight: 600;
     text-align: center;
     border-radius: 5px;
+    background-color: transparent;
     border: 3px solid #00ffff;
     padding: .5rem 1.5rem;
     text-decoration: none;
